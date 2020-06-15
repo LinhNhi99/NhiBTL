@@ -26,7 +26,7 @@ public class Login extends javax.swing.JFrame {
     static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
     static final String DB_URL = "jdbc:mysql://localhost:3306/nhom17";
     static final String USER = "root";
-    static final String PASS = "123456";
+    static final String PASS = "";
 
     public Login() {
         initComponents();

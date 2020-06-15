@@ -26,7 +26,7 @@ public class ChangePassword extends javax.swing.JFrame {
     static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
     static final String DB_URL = "jdbc:mysql://localhost:3306/nhom17";
     static final String USER = "root";
-    static final String PASS = "123456";
+    static final String PASS = "";
 
     public ChangePassword() {
         initComponents();
@@ -122,11 +122,11 @@ public class ChangePassword extends javax.swing.JFrame {
                                 .addGap(65, 65, 65)
                                 .addComponent(txtxacnhanmk, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(231, 231, 231)
-                        .addComponent(btnchangepass))
-                    .addGroup(layout.createSequentialGroup()
                         .addGap(161, 161, 161)
-                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 270, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 270, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(119, 119, 119)
+                        .addComponent(btnchangepass)))
                 .addContainerGap(147, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
